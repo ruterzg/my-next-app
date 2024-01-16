@@ -9,6 +9,7 @@ import {
 } from "@mui/material";
 import { Link, List, Menu, Search, ShoppingCart } from "lucide-react";
 import { NAVIGATIONS } from "./Header";
+import { useState } from "react";
 
 const HeaderMobile = () => {
   const [openMenu, setOpenMenu] = useState(false);

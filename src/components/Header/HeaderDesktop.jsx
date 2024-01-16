@@ -8,8 +8,8 @@ const HeaderDesktop = () => {
         <h1 className="tw-text-2xl tw-text-[#252B42] tw-font-bold">Inspire</h1>
         <nav>
           {NAVIGATIONS.map((item) => (
-            <Link key={item} href={item.toLowerCase()}>
-              {item}
+            <Link key={item.title} href={item.href}>
+              {item.title}
             </Link>
           ))}
           <Link href="/">Home</Link>
